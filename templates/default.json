@@ -1,0 +1,11 @@
+{
+  "handlers" : {
+    "default" : {
+      "type": "tcp",
+      "socket": {
+        "host": "{{host}}",
+        "port": {{port}}
+      }
+    }
+  }
+}

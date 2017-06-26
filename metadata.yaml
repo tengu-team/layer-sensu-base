@@ -2,11 +2,7 @@ name: sensu-base
 summary: This Charm sets up the Sensu Server and Sensu API.
 maintainer: Mathijs Moerman <mathijs.moerman@tengu.io>
 description: |
-  Full-stack monitoring for today's business.
-  Monitor servers, services, application health, and business KPIs.
-  Collect and analyze custom metrics.
-  Get notified about failures before your users do.
-  Give your business the competitive advantage it deserves.
+  When installed, the sensu-server is running. When an http relation is joined, the api will start and become accessable.
 tags:
   - monitoring
 provides:

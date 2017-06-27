@@ -1,0 +1,16 @@
+name: sensu-base
+summary: This Charm sets up the Sensu Server and Sensu API.
+maintainer: Mathijs Moerman <mathijs.moerman@tengu.io>
+description: |
+  When installed, the sensu-server is running. When an http relation is joined, the api will start and become accessable.
+tags:
+  - monitoring
+provides:
+  api:
+    interface: http
+requires:
+  rabbitmq:
+    interface: rabbitmq
+  redis:
+    interface: redis
+series: [ 'xenial' ]

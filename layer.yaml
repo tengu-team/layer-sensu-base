@@ -1,0 +1,6 @@
+includes: ['layer:basic', 'layer:apt', 'layer:metrics', 'interface:rabbitmq', 'interface:redis', 'interface:http']
+repo: git@github.com:Qrama/layer-sensu-base.git
+options:
+  apt:
+    packages:
+      - sensu

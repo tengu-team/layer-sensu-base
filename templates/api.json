@@ -1,0 +1,7 @@
+{
+  "api": {
+    "host": "{{host}}",
+    "bind": "{{host}}",
+    "port": {{port}}
+  }
+}

@@ -32,6 +32,7 @@ juju add-relation rabbitmq-server sensu-base
 ```
 When Sensu-base is complety setup, the rabbitmq-server password will be visible in its status message (of the Sensu-base). This password is needed as a config value for the Sensu clients.
 
+
 # Remarks
 Only one Sensu-base is needed to monitor all the services in a controller. The sensu-client just need the private ip, port and ssl-data of the RabbitMQ. For now this is given through config options, but when cross-model relations become available, this should be rewritten using a relation.
 
